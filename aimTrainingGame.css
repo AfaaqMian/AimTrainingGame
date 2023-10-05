@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header h1,
+footer {
+    padding: 1em;
+}
+
+footer {
+    margin-top: 1em;
+}
+
+svg {
+    display: flex;
+    margin: auto;
+}
+
+svg .text {
+    font-size: 3em;
+    fill: white;
+    stroke: red;
+}
+
+svg #circle {
+    fill: red;
+    stroke: white;
+    stroke-width: 4;
+}
+
+#mainDiv {
+    margin: 1em 0;
+}
+
+div #start {
+    padding: 0.5em 2em;
+}

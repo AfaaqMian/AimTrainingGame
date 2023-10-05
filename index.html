@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="aimTrainingGame.css" rel="stylesheet">
+    <script src="aimTrainingGame.js"></script>
+    <title>Aim Training Game</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-sm-center border border-danger border-5 rounded">Aim Training Game</h1>
+    </header>
+
+    <main class="container.fluid">
+        <div class="row text-sm-center container.fluid" id="mainDiv">
+
+            <div class="col text-sm-end">
+                <p>Timer (in seconds): <span id="timer" class="fw-bold">0</span></p>
+            </div>
+
+            <div class="col text-sm-center">
+                <input id="start" type="button" value="Start" class="btn btn-danger">
+            </div>
+
+            <div class="col text-sm-start">
+                <p>Total score: <span id="score" class="fw-bold">0</span></p>
+            </div>
+
+        </div>
+
+        <svg class="bg-dark border border-danger border-5 rounded d-flex p-2 bd-highlight" width="1200" height="600"
+            id="svg"></svg>
+    </main>
+</body>
+
+</html>
